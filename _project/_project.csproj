@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E72FACB2-7CE4-46A5-AAFA-65A08106278D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_project</RootNamespace>
+    <AssemblyName>_project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Task1.cs" />
+    <Compile Include="Task2.cs" />
+    <Compile Include="Task3.cs" />
+    <Compile Include="Task4.cs" />
+    <Compile Include="Task5.cs" />
+    <Compile Include="Task6.cs" />
+    <Compile Include="Task7.cs" />
+    <Compile Include="Task8.cs" />
+    <Compile Include="Task9.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="tests\Task2\input_1000_100.txt" />
+    <Content Include="tests\Task2\input_1000_5.txt" />
+    <Content Include="tests\Task2\input_100_50.txt" />
+    <Content Include="tests\Task2\input_10_5.txt" />
+    <Content Include="tests\Task2\input_50_100.txt" />
+    <Content Include="tests\Task2\input_5_10.txt" />
+    <Content Include="tests\Task2\input_5_5.txt" />
+    <Content Include="tests\Task3\input__10.txt" />
+    <Content Include="tests\Task3\input__100.txt" />
+    <Content Include="tests\Task3\input__1000.txt" />
+    <Content Include="tests\Task3\input__10000.txt" />
+    <Content Include="tests\Task3\output__10.txt" />
+    <Content Include="tests\Task3\output__100.txt" />
+    <Content Include="tests\Task3\output__1000.txt" />
+    <Content Include="tests\Task4\anagrams.txt" />
+    <Content Include="tests\Task4\small.txt" />
+    <Content Include="tests\Task4\small_right.txt" />
+    <Content Include="tests\Task5\ext_output_01_10.txt" />
+    <Content Include="tests\Task5\ext_output_02_10.txt" />
+    <Content Include="tests\Task5\ext_output_03_10.txt" />
+    <Content Include="tests\Task5\ext_output_04_10.txt" />
+    <Content Include="tests\Task5\ext_output_05_100.txt" />
+    <Content Include="tests\Task5\ext_output_06_100.txt" />
+    <Content Include="tests\Task5\ext_output_07_100.txt" />
+    <Content Include="tests\Task5\ext_output_08_100.txt" />
+    <Content Include="tests\Task5\ext_output_09_1000.txt" />
+    <Content Include="tests\Task5\ext_output_10_1000.txt" />
+    <Content Include="tests\Task5\ext_output_11_1000.txt" />
+    <Content Include="tests\Task5\ext_output_12_1000.txt" />
+    <Content Include="tests\Task5\heaps_01_10.txt" />
+    <Content Include="tests\Task5\heaps_02_10.txt" />
+    <Content Include="tests\Task5\heaps_03_10.txt" />
+    <Content Include="tests\Task5\heaps_04_10.txt" />
+    <Content Include="tests\Task5\heaps_05_100.txt" />
+    <Content Include="tests\Task5\heaps_06_100.txt" />
+    <Content Include="tests\Task5\heaps_07_100.txt" />
+    <Content Include="tests\Task5\heaps_08_100.txt" />
+    <Content Include="tests\Task5\heaps_09_1000.txt" />
+    <Content Include="tests\Task5\heaps_10_1000.txt" />
+    <Content Include="tests\Task5\heaps_11_1000.txt" />
+    <Content Include="tests\Task5\heaps_12_1000.txt" />
+    <Content Include="tests\Task5\input_01_10.txt" />
+    <Content Include="tests\Task5\input_02_10.txt" />
+    <Content Include="tests\Task5\input_03_10.txt" />
+    <Content Include="tests\Task5\input_04_10.txt" />
+    <Content Include="tests\Task5\input_05_100.txt" />
+    <Content Include="tests\Task5\input_06_100.txt" />
+    <Content Include="tests\Task5\input_07_100.txt" />
+    <Content Include="tests\Task5\input_08_100.txt" />
+    <Content Include="tests\Task5\input_09_1000.txt" />
+    <Content Include="tests\Task5\input_10_1000.txt" />
+    <Content Include="tests\Task5\input_11_1000.txt" />
+    <Content Include="tests\Task5\input_12_1000.txt" />
+    <Content Include="tests\Task5\input_16_10000.txt" />
+    <Content Include="tests\Task5\output_01_10.txt" />
+    <Content Include="tests\Task5\output_02_10.txt" />
+    <Content Include="tests\Task5\output_03_10.txt" />
+    <Content Include="tests\Task5\output_04_10.txt" />
+    <Content Include="tests\Task5\output_05_100.txt" />
+    <Content Include="tests\Task5\output_06_100.txt" />
+    <Content Include="tests\Task5\output_07_100.txt" />
+    <Content Include="tests\Task5\output_08_100.txt" />
+    <Content Include="tests\Task5\output_09_1000.txt" />
+    <Content Include="tests\Task5\output_10_1000.txt" />
+    <Content Include="tests\Task5\output_11_1000.txt" />
+    <Content Include="tests\Task5\output_12_1000.txt" />
+    <Content Include="tests\Task6\input_06.txt" />
+    <Content Include="tests\Task6\test_06_ans_22.txt" />
+    <Content Include="tests\Task7\input_100a.txt" />
+    <Content Include="tests\Task7\input_100b.txt" />
+    <Content Include="tests\Task7\input_100c.txt" />
+    <Content Include="tests\Task7\input_100d.txt" />
+    <Content Include="tests\Task7\input_100e.txt" />
+    <Content Include="tests\Task7\input_10a.txt" />
+    <Content Include="tests\Task7\input_10b.txt" />
+    <Content Include="tests\Task7\input_10c.txt" />
+    <Content Include="tests\Task7\input_10d.txt" />
+    <Content Include="tests\Task7\input_10e.txt" />
+    <Content Include="tests\Task7\output_100a_51.txt" />
+    <Content Include="tests\Task7\output_100b_78.txt" />
+    <Content Include="tests\Task7\output_100c_103.txt" />
+    <Content Include="tests\Task7\output_100d_50.txt" />
+    <Content Include="tests\Task7\output_100e_50.txt" />
+    <Content Include="tests\Task7\output_10a_9.txt" />
+    <Content Include="tests\Task7\output_10b_7.txt" />
+    <Content Include="tests\Task7\output_10c_9.txt" />
+    <Content Include="tests\Task7\output_10d_5.txt" />
+    <Content Include="tests\Task7\output_10e_5.txt" />
+    <Content Include="tests\Task8\graph_08_1.png" />
+    <Content Include="tests\Task8\graph_08_2.png" />
+    <Content Include="tests\Task8\graph_08_3.png" />
+    <Content Include="tests\Task8\input_08.txt" />
+    <Content Include="tests\Task8\test_08_1.output.txt" />
+    <Content Include="tests\Task8\test_08_1.txt" />
+    <Content Include="tests\Task8\test_08_2.output.txt" />
+    <Content Include="tests\Task8\test_08_2.txt" />
+    <Content Include="tests\Task8\test_08_3.output.txt" />
+    <Content Include="tests\Task8\test_08_3.txt" />
+    <Content Include="tests\Task8\test_08_4.output.txt" />
+    <Content Include="tests\Task8\test_08_4.txt" />
+    <Content Include="tests\Task9\input_1_100.txt" />
+    <Content Include="tests\Task9\input_2_100.txt" />
+    <Content Include="tests\Task9\input_3_100.txt" />
+    <Content Include="tests\Task9\input_4_1000.txt" />
+    <Content Include="tests\Task9\input_5_10.txt" />
+    <Content Include="tests\Task9\input_6_10.txt" />
+    <Content Include="tests\Task9\input_7_10.txt" />
+    <Content Include="tests\Task9\input_8_10.txt" />
+    <Content Include="tests\Task9\output_1.txt" />
+    <Content Include="tests\Task9\output_2.txt" />
+    <Content Include="tests\Task9\output_3.txt" />
+    <Content Include="tests\Task9\output_4.txt" />
+    <Content Include="tests\Task9\output_5.txt" />
+    <Content Include="tests\Task9\output_6.txt" />
+    <Content Include="tests\Task9\output_7.txt" />
+    <Content Include="tests\Task9\output_8.txt" />
+    <Content Include="tests\Task9\USA-FLA.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
